@@ -19,7 +19,7 @@ public class GeoJsonPlugin extends Plugin
     {
         super(info);
         this.geoJsonFileImporter = new GeoJsonFileImporter();
-        ExtensionFileFilter.importers.add(this.geoJsonFileImporter);
+        ExtensionFileFilter.addImporter(this.geoJsonFileImporter);
         ExtensionFileFilter.updateAllFormatsImporter();
     }
 

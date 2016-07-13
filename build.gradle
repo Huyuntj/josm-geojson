@@ -14,7 +14,7 @@ group = 'org.openstreetmap.josm.plugins'
 version = '0.0.0-SNAPSHOT'
 
 // Change JOSM version (if needed) before you build
-project.ext.josm_version='9060'
+project.ext.josm_version='10504'
 project.ext.josm_location='download'
 //project.ext.josm_location='download/Archiv'
 
