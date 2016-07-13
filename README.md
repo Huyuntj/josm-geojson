@@ -8,32 +8,17 @@ A plugin for displaying geodata stored in a [geojson](https://geojson.org/) form
 
 ## Build
 
-Create a lib folder
-```
-mkdir lib/
-```
-Download josm
 ```
 gradle josm
-```
-Build
-```
 gradle clean build
 ```
 
 ## Run
 
-Depending on the JOSM version used...
-
-Before:
+The following command will build the plugin's jar file, and copy it with the proper name into your JOSM's plugin folder.
 
 ```
-cp build/libs/josm-geojson-0.0.0-SNAPSHOT.jar ~/.josm/plugins/geojson.jar
-```
-
-After:
-```
-cp build/libs/josm-geojson-0.0.0-SNAPSHOT.jar ~/Library/JOSM/plugins/geojson.jar
+gradle installPlugin
 ```
 
 And Josm should pick up the plugin at startup.
